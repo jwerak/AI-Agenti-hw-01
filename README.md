@@ -1,43 +1,24 @@
 # AI Agenti - HW 01
 
+## Assignment
+
 Napiš Python skript, který zavolá LLM API, použije nástroj (např. výpočetní funkci) a
 vrátí odpověď zpět LLM.
 
 ## Setup
 
-Install packages
+Get API key from https://aistudio.google.com/app/apikey and save it in `.env` file.
+
+Use `.env-example` as a starting point.
+
+Install dependencies
 
 ```bash
 uv sync
 ```
 
-
-## Run directly
-
-`uv run main.py` (or alternative files)
-
-## Run indirectly
-
-Create a virtual environment
+## Run
 
 ```bash
-uv venv
-```
-
-Activate virtual environment
-
-```bash
-source .venv/bin/activate
-```
-
-Install packages
-
-```bash
-uv sync
-```
-
-Run script main (or alternative files)
-
-```bash
-python main.py
+uv run main.py
 ```
